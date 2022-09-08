@@ -1,3 +1,8 @@
+/**
+ * Handles component's name validation
+ * @param name - user input for component name
+ * @returns Error message to display
+ */
 export const validateComponent = (name: string): string | null => {
   if (!name || name === "") {
     return "Component's name can not be empty";
